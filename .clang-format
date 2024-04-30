@@ -1,0 +1,18 @@
+---
+BasedOnStyle:  LLVM
+---
+Language:        Cpp
+# Do not change line breaks:
+ColumnLimit:     0
+# Certain files are sensitive to inclusion order, so don't mess that up:
+SortIncludes:    false
+# Force pointers to the left for C++, like Stroustrup intended.
+DerivePointerAlignment: false
+PointerAlignment: Left
+# Indent nested preprocessor macros (i.e. `#define`)
+IndentPPDirectives: AfterHash
+# Indentation inside switches:
+AllowShortCaseLabelsOnASingleLine: true
+IndentCaseLabels: true
+IndentCaseBlocks: true
+...

@@ -1,0 +1,18 @@
+# .gitattributes
+#
+# For information regarding the contents of this file, see:
+#   https://git-scm.com/docs/gitattributes
+
+* text=auto
+
+*.bat text eol=lf
+*.sh text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.h text eol=lf
+*.c text eol=lf
+*.hpp text eol=lf
+*.cpp text eol=lf
+*.patch text eol=lf
+*.in text eol=lf
+*.py text eol=lf
